@@ -1,4 +1,4 @@
-name: gclone to auto
+name: gclone to sfun
 
 on:
   workflow_dispatch:
@@ -53,5 +53,5 @@ jobs:
           sudo cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
           # 开始同步
           # O-A
-          rclone sync Auto:{1LyWgvu_WAYcRcgGG52mu-vlX9KdWU9qh} Auto:{1JJ_TsxFQpKI-qUFImrnaAs7wHkFmIJ79} --drive-server-side-across-configs -v
+          rclone sync Auto:{17tuLK3f6XpelB_DRk0jUECth_XcAxpHD} Auto:{1db7CIhVF6-HTwkEVqvXLMGRDDrpPBv5_} --drive-server-side-across-configs -v
           echo "O已同步至【Auto】"
